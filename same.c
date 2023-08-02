@@ -1,3 +1,6 @@
+/*Simple program to check if all values can be either 0 or 1 by changing only one bit*/
+//INPUT:binary digits
+//OUTPUT: YES or NO
 #include<stdio.h>
 int main()
 {
@@ -13,16 +16,12 @@ int main()
         while(i<n)
         {
                 if(val[i]==0)
-                {
                         zero++;
-                }
                 else
-                {
                         one++;
-                }
         }
         if(zero==1 || one == 1)
-                printf("YESSSSSSSSSS!!!!");
+                printf("YES!!!!");
         else
-                printf("NONONONONONONO!!!");
+                printf("NO!!!");
 }
