@@ -1,3 +1,6 @@
+/*C Program to get student details and evaluvate multiple choice questions*/
+//INPUT: correct answers,student details,student answers 
+//OUTPUT: wrong questions
 #include <stdio.h>
 struct student
 {
@@ -42,13 +45,6 @@ int main()
         else if (st[i].mark == 100)
             st[i].group = 11;
     }
-    /*for (i = 0; i < count; i++)
-    {
-        printf("\nname:%s", st[i].name);
-        printf("\nid:%d", st[i].id);
-        printf("\nmark:%d", st[i].mark);
-        printf("\ngroup:%d", st[i].group);
-    }*/
     int c = 0, j;
     for (i = 1; i <= 11; i++) // group
     {
