@@ -1,3 +1,7 @@
+/* A Basic code to 'count the occurances of numbers' in a given string */
+//INPUT: string
+//OUTPUT: count occurance of numbers
+
 #include <stdio.h>
 #include <string.h>
 int i, j;
