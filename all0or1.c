@@ -15,15 +15,17 @@ int main()
         {
                 if(val[i]=='0')
                 {
-                        zero++;i++;
+                        zero++;
+                        i++;
                 }
                 else
                 {
-                        one++;i++;
+                        one++;
+                        i++;
                 }
         }
         if(zero==1 || one == 1)
-                printf("YESYESYESYESYES!!!!");
+                printf("YES!!!!");
         else
-                printf("NONONONONONONO!!!");
+                printf("NO!!!");
 }
